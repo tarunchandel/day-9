@@ -14,8 +14,6 @@ while more_users_flag == "y":
   more_users_flag = input("Are there more users? Enter 'y' for yes.\n").lower()
   clear()
 
-
-
 winner = tarun.find_winning_bidder(bids)
 print(f"Highest bid is: ${winner[1]} and the highest bidder is: {winner[0]}.")
 
